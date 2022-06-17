@@ -1,0 +1,65 @@
+body{
+background-color: rgb(61, 57, 83);
+}
+.ListaPrincipal{
+    display: flex;
+    gap: 50px;
+    background-color: aliceblue;
+   
+
+}
+.ListaPrincipal a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+
+.grid-item{
+    display: grid;
+    grid-template-columns: auto auto ;
+    justify-content: left;
+    
+
+
+}
+.grid-item img{
+    width:90rem;
+   
+}
+.cuadroDerecho{
+    display: block;
+    background-color: aquamarine;
+   
+    width: 450px;
+    padding-left: 50px; 
+    margin-bottom:700px ;
+}
+
+.Texto{
+    background-color: aliceblue;
+    width: 90rem;
+
+}
+.Texto h1 {
+    margin: 0px;
+    
+}
+.Texto p {
+    font-size: 20px;
+    margin: 0px;
+}
+.Pie {
+   background-color: blue;
+ padding: 50px;
+ width: 83.850rem;
+ margin: 0px;
+
+}
+.Pie p {
+ 
+
+    text-align: center;
+    font-size: 50px;
+    
+} 
